@@ -1,5 +1,8 @@
 import React from "react"
+import Parser from "rss-parser"
 
-export default () => (
-  <div>This is an RSS Source</div>
+let parser = new Parser();
+
+export default (props) => (
+	<h2>{props.feedURL}</h2>
 )

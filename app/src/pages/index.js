@@ -8,7 +8,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>My Third Mind</h1>
-    <RSSSource />
+    <RSSSource feedURL="http://feeds.bbci.co.uk/news/rss.xml" />
+    <RSSSource feedURL="https://hnrss.org/frontpage" />
+    <RSSSource feedURL="https://lexington.craigslist.org/search/mis?format=rss" />
   </Layout>
 )
 
