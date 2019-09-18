@@ -3,6 +3,8 @@ import Parser from "rss-parser"
 
 let parser = new Parser();
 
-export default (props) => (
+const RSSSource = (props) => (
 	<h2>{props.feedURL}</h2>
 )
+
+export default RSSSource
