@@ -34,9 +34,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>My Third Mind</h1>
-    <Cutup feedURL={rssSources[0]} />
-    <Cutup feedURL={rssSources[1]} />
-    <Cutup feedURL={rssSources[2]} />
+    <div id="cutupsList">
+      <Cutup feedURL={rssSources[0]} />
+      <Cutup feedURL={rssSources[1]} />
+      <Cutup feedURL={rssSources[2]} />
+    </div>
   </Layout>
 )
 
