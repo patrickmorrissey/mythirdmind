@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `My Third Mind`,
+    description: `Using RSS feeds to generate randomized string cutups.  See William S. Burroughs' and Brion Gysin's "The Third Mind"`,
     author: `@gatsbyjs`,
   },
   plugins: [
